@@ -210,7 +210,7 @@ def _run_single_hook(
             status = 'Failed'
         else:
             print_color = color.GREEN
-            status = 'Passed'
+            status = 'brat'
 
         output.write_line(color.format_color(status, print_color, use_color))
 
